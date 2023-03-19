@@ -3,7 +3,6 @@ package service.impl;
 import dao.ProductDao;
 import dao.UsersDao;
 import enums.Companies;
-import enums.Enums;
 import excp.MyException;
 import model.Products;
 import service.ProductService;
@@ -118,4 +117,5 @@ public class ProductServiceImpl implements ProductService {
         }
 
     }
+
 }
